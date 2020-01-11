@@ -1,0 +1,38 @@
+{
+  "name": "scout24-assignment",
+  "version": "1.0.0",
+  "description": "Trail using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "restart": "nodemon index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Mohamed Elkashif",
+  "license": "MIT",
+  "dependencies": {
+    "appmetrics-zipkin": "^1.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.4.5",
+    "restify": "^7.5.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-logger": "^2.0.1",
+    "restify-router": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9"
+  },
+  "_moduleAliases": {
+    "@models": "app/models",
+    "@controllers": "app/controllers",
+    "@http": "app/http",
+    "@helper": "app/helpers"
+  }
+}
