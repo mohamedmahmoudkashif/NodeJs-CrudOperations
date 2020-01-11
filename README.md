@@ -1,4 +1,4 @@
-# Scout24 software assignment
+# NodeJS-CrudOperations
 
 ## General Info
 1. The project is implemented using [Nodejs](https://nodejs.org) and [MonogDB](https://www.mongodb.com/) as a database
